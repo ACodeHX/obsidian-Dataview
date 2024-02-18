@@ -20321,13 +20321,13 @@ class GeneralSettingsTab extends obsidian.PluginSettingTab {
         if (taskCompletionSubsettingsEnabled)
             taskEmojiShorthand
                 .setDesc(createFragment(el => {
-                el.appendText('If enabled, will use emoji shorthand instead of inline field formatting to fill out implicit task field "completion".');
+                el.appendText('如果启用，将使用表情符号简写而不是行内字段格式来填充隐式任务字段 "completion".');
                 el.createEl("br");
-                el.appendText("Example: - [x] my task ✅ 2022-01-01");
+                el.appendText("示例：- [x] 我的任务 ✅ 2022-01-01");
                 el.createEl("br");
-                el.appendText("Disable this to customize the completion date format or field name, or to use Dataview inline field formatting.");
+                el.appendText("禁用此功能以自定义完成日期格式或字段名称，或者使用 Dataview 行内字段格式.");
                 el.createEl("br");
-                el.appendText('Only available when "Automatic Task Completion Tracking" is enabled.');
+                el.appendText('仅在启用 "自动任务完成跟踪" 时可用.');
             }))
                 .addToggle(toggle => toggle.setValue(this.plugin.settings.taskCompletionUseEmojiShorthand).onChange(async (value) => {
                 await this.plugin.updateSettings({ taskCompletionUseEmojiShorthand: value });
@@ -20342,9 +20342,9 @@ class GeneralSettingsTab extends obsidian.PluginSettingTab {
         if (taskCompletionInlineSubsettingsEnabled)
             taskFieldName
                 .setDesc(createFragment(el => {
-                el.appendText("Text used as inline field key for task completion date when toggling a task's checkbox in a dataview view.");
+                el.appendText("在 Dataview 视图中切换任务复选框时，作为行内字段键用于任务完成日期的文本.");
                 el.createEl("br");
-                el.appendText('Only available when "Automatic Task Completion Tracking" is enabled and "Use Emoji Shorthand for Completion" is disabled.');
+                el.appendText('仅在启用 "自动任务完成跟踪" 且禁用 "使用表情符号简写来表示完成" 时可用.');
             }))
                 .addText(text => text.setValue(this.plugin.settings.taskCompletionText).onChange(async (value) => {
                 await this.plugin.updateSettings({ taskCompletionText: value.trim() });
@@ -20356,9 +20356,9 @@ class GeneralSettingsTab extends obsidian.PluginSettingTab {
             .setDisabled(!taskCompletionInlineSubsettingsEnabled);
         if (taskCompletionInlineSubsettingsEnabled) {
             let descTextLines = [
-                "Date-time format for task completion date when toggling a task's checkbox in a dataview view (see Luxon date format options).",
-                'Only available when "Automatic Task Completion Tracking" is enabled and "Use Emoji Shorthand for Completion" is disabled.',
-                "Currently: ",
+                "在 Dataview 视图中切换任务复选框时，用于任务完成日期的日期时间格式(参见 Luxon 日期格式选项).",
+                '仅在启用 "自动任务完成跟踪" 且禁用 "使用表情符号简写来表示完成" 时可用.',
+                "目前: ",
             ];
             taskDtFormat
                 .setDesc(createFragment(el => {
