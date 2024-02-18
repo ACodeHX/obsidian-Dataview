@@ -12,6 +12,6 @@
 
 ### 手动安装:
 
-下载`Releases`然后将其中文件`obsidian-full-calendar_zh_CN.zip` 解压到 **你的笔记目录/.obsidian/plugins/**
+下载`Releases`然后将其中文件`dataview.zip` 解压到 **你的笔记目录/.obsidian/plugins/**
 
 或者下载`main.js,manifest.json,styles.css`到/.obsidian/plugins/的目录里
