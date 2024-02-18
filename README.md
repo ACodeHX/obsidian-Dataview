@@ -15,3 +15,7 @@
 下载`Releases`然后将其中文件`dataview.zip` 解压到 **你的笔记目录/.obsidian/plugins/**
 
 或者下载`main.js,manifest.json,styles.css`到/.obsidian/plugins/的目录里
+
+### 汉化部分展示
+![dataview](https://github.com/ACodeHX/obsidian-Dataview/assets/127362983/89b1ca46-40ec-489d-8d1f-61dfce918826)
+![dataviewcode](https://github.com/ACodeHX/obsidian-Dataview/assets/127362983/1e95bd4d-21e1-4bf0-9e53-bbcb7c6d60b4)
