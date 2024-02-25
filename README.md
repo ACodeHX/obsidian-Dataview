@@ -1,4 +1,6 @@
-<center><h2>Obsidian Dataview 汉化</h2></center>
+<h2 align="center">Obsidian Dataview 汉化</h2>
+
+
 
 ### 原项目地址
 
@@ -17,7 +19,9 @@
 或者下载`main.js,manifest.json,styles.css`到/.obsidian/plugins/的目录里
 
 ### 汉化部分展示
+
 #### 常规设置
+
 ![dataview](https://github.com/ACodeHX/obsidian-Dataview/assets/127362983/89b1ca46-40ec-489d-8d1f-61dfce918826)
 代码块设置
 ![dataviewcode](https://github.com/ACodeHX/obsidian-Dataview/assets/127362983/1e95bd4d-21e1-4bf0-9e53-bbcb7c6d60b4)
