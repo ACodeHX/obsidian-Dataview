@@ -1,11 +1,8 @@
 <h2 align="center">Obsidian Dataview 汉化</h2>
 
-# 
-
 ### 原项目地址
 
 这个项目包含了来自 [dataview](https://github.com/blacksmithgu/obsidian-dataview) 的代码，遵循 MIT 许可。
-
 本项目是Obsidian dataview的汉化,如果有汉化不对的地方，欢迎来矫正。
 
 ### 安装
